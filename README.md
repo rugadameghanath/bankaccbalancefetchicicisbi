@@ -1,5 +1,5 @@
 # bankaccbalancefetchicicisbi
-when you are lazy to type user name and password of multiple family members to check balances this is the solution
+When you are lazy to type user name and password of multiple family members to check balances, this is the solution based on python and selenium for chrome browser.
 
 in the below line in the code, you need to replace with actual credentials.
 
