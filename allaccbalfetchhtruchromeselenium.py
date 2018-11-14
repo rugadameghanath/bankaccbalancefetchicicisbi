@@ -56,6 +56,7 @@ def balfetchici(i):
     chrm.implicitly_wait(1)
     chrm.find_element_by_id("MY_ACCOUNTS").click()
     chrm.find_element_by_id("Bank-Accounts").click()
+    #assuming the first account in the list as the account of importance, otherwise need to write a loop find the number of accounts and then run the below 4 lines before logout.
     iciacc=(chrm.find_element_by_id("HREF_actNoOutput[0]").get_attribute("innerHTML"))
     icibal=(chrm.find_element_by_id("HREF_actBalOutput[0]").get_attribute("innerHTML"))
     print('Balance in',iciacc,'is INR ',icibal)
